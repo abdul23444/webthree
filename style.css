@@ -1,0 +1,173 @@
+*{ margin: 0%; padding: 0%; box-sizing: border-box;}
+header{ background-color: aquamarine;}
+.head{ max-width: 95%;  margin: auto; display: flex; justify-content: space-between; line-height: 55px; }
+.start-containt{ display: flex; }
+.start-containt img{  width:50px;  height: 55px; padding: 5px 0px 5px 0px ; transition: 2s all;}
+.start-containt img:hover{  transform: rotate(360deg);}
+.start-containt h2{ color: rgb(0, 88, 219); margin-left: 10px;}
+.head button{ width: 130px;height: 40px; margin-top: 7px; background-color: rgb(0, 149, 190); color: rgb(0, 255, 255); font-size: 15px; text-shadow: 3px 2px 4px rgb(0, 22, 70); border-radius: 10px; border: none;} 
+
+/*this is a first-navbar*/
+
+.row{ max-width: 95%; display: flex; justify-content: space-between; margin: auto; padding: 10px 0px; }
+.box-1{ display: flex;}
+.row h2{ font-size: 40px; margin-top:9px ; animation: 2s halaal; }
+
+
+
+.box-1 h1{ font-size: 20px;  margin: 20px 10px 0px 0px ;}
+.box-1 i{ font-size: 20px; margin:  23px 5px 15px 15px; animation: 2s logo;}
+#search{ width: 450px;height: 40px; margin-top: 10px; border: 3px rgb(60, 155, 124) solid; padding: 5px;  border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+#dropdown{ width: 200px; height: 40px; border: 3px rgb(60, 155, 124) solid; border-top-right-radius: 10px;  border-bottom-right-radius: 10px;}
+#dropdown:hover{ background-color: aquamarine;}
+#search::placeholder{ font-family: 'Times New Roman', Times, serif; word-spacing: 10px; font-size: 15px;}
+/*2nd-navbar*/
+/*#container{ background-color: aqua;}*/
+#nav2{ background-color: aliceblue; position: sticky; top: -1px; z-index: 2;}   
+.row ul{ display: flex; list-style: none;}
+.row ul li{ padding: 10px 25px ;position:relative; }
+.call-log{display: flex;}
+.call-log i{font-size: 25px; margin: 5px;}
+.call-log h3{font-size: 20px; margin: 8px 0px;}
+
+/* menu-bar*/
+
+.menu-bar{ border: 2px solid rgb(0, 0, 0); width: 35px; height: 35px; border-radius: 5px; position: relative;  }
+.line{ margin: 5px;}
+.line-1{ width: 20px; height:5px; background-color: black; border-radius: 10px; margin: 3px 0px 0px 0px ;}
+.line-2{ width: 10px; height:5px; background-color: black; border-radius: 10px; margin: 3px 0px 0px 0px ;}
+
+
+.card{ width: 600px;height: 250px;background-color: aliceblue;position: absolute; z-index: 2;   left: -2px; top: 33px;  border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;  visibility: hidden; }
+.card-in{ display: flex; padding: 10px; justify-content: space-between;}
+.card-item1 h1{ margin-bottom: 10px; border-radius: 10px; border: 2px solid aquamarine; padding:  4px 5px;}
+.card-item1 h1:hover{ background-color: rgb(27, 227, 161); }
+
+
+.menu-bar:hover .card{ visibility: visible;  animation: 0.5s list;}
+
+.li-list1{ width: 150px; text-align: center;  background-color: aliceblue; position: absolute; right: -30px; top: 30px; padding: 10px;  visibility: hidden; z-index: 2;  border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+.li-list1 p{ font-size: 20px;  border-radius: 1px; margin: 5px; text-align: center;}
+.row ul #li1:hover .li-list1{ visibility: visible; animation: 1s list-a;}
+
+
+.li-list2{ width: 150px; text-align: center; background-color: aliceblue; position: absolute; right: -30px; top: 30px; padding: 10px;  visibility: hidden; z-index: 2; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+.li-list2 p{ font-size: 20px;  border-radius: 1px; margin: 5px; text-align: center;}
+.row ul #li2:hover .li-list2{ visibility: visible; animation: 1s list-a;}
+
+.li-list3{ width: 150px; text-align: center; background-color: aliceblue; position: absolute; right: -30px; top: 30px; padding: 10px;  visibility: hidden;z-index: 2;  border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+.li-list3 p{ font-size: 20px;  border-radius: 1px; margin: 5px; text-align: center;}
+.row ul #li3:hover .li-list3{ visibility: visible; animation: 1s list-a;}
+
+.li-list4{ width: 150px; text-align: center; background-color: aliceblue; position: absolute; right: -30px; top: 30px; padding: 10px;  visibility: hidden;z-index: 2;  border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+.li-list4 p{ font-size: 20px;  border-radius: 1px; margin: 5px; text-align: center;}
+.row ul #li4:hover .li-list4{ visibility: visible; animation: 1s list-a;}
+
+.li-list5{ width: 150px; text-align: center;  background-color: aliceblue; position: absolute; right: -30px; top: 30px; padding: 10px;  visibility: hidden;z-index: 2;  border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+.li-list5 p{ font-size: 20px;  border-radius: 1px; margin: 5px; text-align: center;}
+.row ul #li5:hover .li-list5{ visibility: visible; animation: 1s list-a;}
+
+.li-list6{ width: 150px;  text-align: center; background-color: aliceblue; position: absolute; right: -30px; top: 30px; padding: 10px;  visibility: hidden;z-index: 2;  border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+.li-list6 p{ font-size: 20px;  border-radius: 1px; margin: 5px; text-align: center;}
+.row ul #li6:hover .li-list6{ visibility: visible; animation: 1s list-a;}
+
+/*owl start*/
+.item img{ height: 600px;}
+
+.main-1{ background-color: rgb(238, 238, 238);height: 80px; width: 440px; margin-bottom: 10px; text-align: center; font-size: 20px; padding: 15px;  transition: 1s all;}
+#gr{ color:  rgb(0, 169, 113);}
+.main-1:hover{transform: translateX(35px);}
+.main-1:hover h3{ color: rgb(169, 25, 0); text-shadow: 1px 1px  rgb(130, 130, 130);}
+.main2{   background-image: url(./cake.jpeg); height: 530px; width: 530px; }
+.main3{  background-image: url(./Fruit\ Custard\ Falooda\ \(1\).jpeg);height: 530px; width: 530px;}
+
+.percentage{display: flex;}
+.percentage span{ font-size: 70px; }
+.percentage h3{ font-size: 30px;}
+.percentage h1{ font-size: 70px;}
+
+.button-box{  position: relative; top: 350px;   text-align: center;}
+.button-box button{ padding: 10px 0px; background-color: violet; border-radius: 20px;border: none; font-size: 20px; width: 200px;}
+.button-box h1{  color: aliceblue;}
+.row1{ width: 700px; margin: 30px auto; text-align: center; }
+.row1 h1{ font-size: 40px; margin-top: 80px; line-height: 95px;}
+.row1 p{ font-size: 20px; margin-bottom: 80px;}
+
+
+.card2{ text-align: center; border: 5px solid aquamarine; border-radius: 10px; position: relative;}
+.row-1 .card1 .box{ transition: 1s;}
+.row-1 .card1 .box:hover{ transform: translateX(35px);}
+.card1 .box h1{  font-size: 30px; padding: 14px; text-align: center; border: 5px solid rgb(226, 226, 226); margin-bottom: 10px; background-color: rgb(238, 238, 238); width: 350px;}
+.card1 .box:hover h1{ background-color: aquamarine; color: black; }
+.row2 .card2{ background-color: rgb(238, 238, 238);  width: 290px;height: 400px;padding: 10px; border: 2px solid white; }
+.row2 .card2 img{ width: 200px; height: 200px; }
+.card2 #cart{ background-color: white; border-radius: 100px; border: 5px solid rgb(4, 237, 254); position: absolute;  padding: 10px; top: 200px;  right: 120px;}
+.row-1,.row-2{ display: flex; max-width: 95%; margin: 20px  auto; justify-content: space-between;}
+.card1-1{ background-image: url(./McDonald’s\ Weight\ Watchers\ Points\ Guide.jpeg); height: 400px;width: 350px; background-size: cover;}
+.star{ margin-top: 10px;}
+.star i{ font-size: 20px;  color: rgb(255, 172, 70);}
+.nothing{ display: flex; width: 110px;  margin:10px 0px 0px  95px;}
+.nothing  h1{ color: rgb(0, 146, 97);}
+
+.row .card-box{ background-color: rgb(31, 31, 31); width: 32%; height: 250px;  display: flex; margin: 50px 0px; transition: 2s ;}
+.row .card-box:hover{ color: black; background-color: aliceblue; }
+.row .card-box:hover h1{ color: black;}
+.card-box img{ width: 180px;height: 180px; border-radius: 100px; margin: 20px 0px 0px 5px; border: 5px solid black;}
+.card-box h1{ color: aliceblue; position: relative; top:85px ; left: 20px ; font-size: 40px;}
+
+
+.row .containt{ width: 23%; height: 200px; background-color: rgb(247, 247, 248); text-align: center;  border-radius:10px ; border: 2px  rgb(209, 209, 209) solid; padding: 15px 20px; margin: 60px 0px; transition: 2s;}
+.row .containt:hover{ background-color: rgb(228, 228, 228); transform: translateY(-50px);}
+.row .containt:hover i{ color: brown;}
+.row .containt i{ font-size: 35px; color: rgb(3, 138, 93); margin-bottom: 10px; }
+.row .containt h3{  font-size: 28px; color: rgb(92, 218, 176); text-shadow: 1px 1px 2px rgb(0, 0, 0);}
+.row .containt p{  font-size: 17px; padding: 10px 0px; text-transform: capitalize; }
+.container1{ background-image: url(./maain.jpeg); height: 700px; width: 100%; background-size: cover;}
+.container1 .container{ border: 5px black solid;  background-color: antiquewhite;  border-radius:20px ; width: 600px;height: 300px; position: relative ; top: 100px; left: 100px; padding: 20px; animation: 10s alldirection infinite linear;}
+#per{ width: 100px;height: 70px;}
+#per h1{ font-size: 60px; color: aqua;text-shadow: 1px 1px 2px rgb(37, 0, 244);}
+#per h5{ font-size: 40px; margin-top:20px; color: aqua; text-shadow: 1px 1px 2px rgb(37, 0, 244);}
+.bg{ background-image: url(./Fruit\ Custard\ Falooda\ \(1\).jpeg); height: 400px; width: 700px; border: 2px solid white;}
+
+#name-box .box{ background-color: rgb(240, 240, 240); padding: 0px 40px;  width: 33%;height: 400px; margin-top: 50px; text-align: center; }
+#name-box .box .circle img{ background-color: rgb(71, 0, 138); width: 250px;height: 250px; border-radius: 130px; border: 10px solid white;}
+#name-box .box .circle{ position: relative; top: -110px; margin: auto;}
+#name-box .box:first-child{ border-top-left-radius: 50px; border-bottom-left-radius: 50px;}
+#name-box .box:last-child{ border-top-right-radius: 50px; border-bottom-right-radius: 50px;}
+#name-box .box .circle #ma-a{ font-size: 40px; line-height: 30px;}
+#name-box .box .circle h1{ font-size: 50px; line-height: 80px;}
+#name-box .box .circle p{ font-size: 20px;}
+#name-box .box .circle .star i{ font-size: 30px; padding: 8px;}
+
+
+#id-for-foot{ background-color: rgb(229, 229, 229);  }
+.main{ display: flex; justify-content: space-between;}
+.box-in-main1{ width: 33%;  padding: 20px 10px  ;}
+#lg{ margin-bottom: 10px;}
+#lg img{ width: 50px;height: 50px;}
+#lg h1{ font-size: 50px; margin-left: 10px;}
+.box-in-main1 p{ font-size: 20px; font-style: italic; margin-bottom: 10px; }
+.box-in-main1 h2{ font-size: 20px; margin-bottom: 10px;}
+
+
+.box-in-main2{ width: 17%;  padding: 20px 10px; }
+.box-in-main2 h1{ font-size: 40px; margin-bottom: 20px; }
+.box-in-main2 h3{ font-size: 19px; margin-bottom: 30px; transition: 1s;}
+
+
+.box-in-main3{ width: 17%;   padding: 20px 10px ;}
+.box-in-main3 h1{ font-size: 40px; margin-bottom: 20px; }
+.box-in-main3 h3{ font-size: 19px; margin-bottom: 30px;  transition: 1s; text-transform: uppercase;}
+
+.box-in-main4{ width: 33%;   padding: 20px 10px  ;}
+.box-in-main4 h1{ font-size: 40px;  margin-bottom: 20px;}
+.box-in-main4 input{ width: 400px; height: 40px;}
+.box-in-main4 input::placeholder{ font-size: 15px;}
+
+.line-box{ display: flex;}
+.line-box .box{ width: 50px; margin-bottom: 20px;  height: 50px;background-color: rgb(240, 240, 240); margin-right:30px ; border: 2px solid rgb(191, 191, 191);}
+.line-box img{height: 80px; width: 80px; margin-right: 15px;}
+
+.box-in-main2 h3:hover{ transform: translatex(10px); color:red ;}
+.box-in-main3 h3:hover{ transform: translatex(10px);color:red ; }
+

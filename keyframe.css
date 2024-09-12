@@ -1,0 +1,31 @@
+@keyframes halaal {
+    0% {transform: translatex(-200px);}
+    50%{ transform: translateX(100px);}
+    100% { transform: translatex();}
+}
+@keyframes list {
+    0%{ transform: translateY(10px);}
+    100%{ transform: translateY(0px);}
+}
+@keyframes list-a {
+    0%{ transform: translateY(30px);}
+    100%{ transform: translateY(0px);}
+}
+@keyframes logo {
+    0%{ transform: translatex(-20px);}
+    50%{ transform: rotate(180deg);}
+    100%{ transform: translatex(0px); transform: rotatey(180deg);}
+}
+
+@keyframes alldirection {
+    40%{ transform: translateX(900px);}
+    50%{ transform: translate(900px,250px);}
+    90%{ transform: translatey(250px);}
+    100%{}
+    
+}
+@keyframes welcome {
+    0%{ }
+    50%{transform: translateY(-350px);}
+    100%{}
+}
